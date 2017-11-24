@@ -20,7 +20,7 @@ def sendPicture(bot, update):
     print("sendPicture")
     tempPicture = make_temp_image()
     update.message.reply_photo(photo=open(tempPicture, 'rb'))
-    delete_file(tempPicture)
+    #delete_file(tempPicture)
 
 #
 # PiCam Operations
