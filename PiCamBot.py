@@ -43,6 +43,7 @@ def delete_file(path):
 
 updater = Updater(TOKEN)
 updater.dispatcher.add_handler(CommandHandler('start', start))
+updater.dispatcher.add_handler(CommandHandler('sendPicture', sendPicture))
 
 
 #
